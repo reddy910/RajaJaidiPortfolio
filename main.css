@@ -1,0 +1,48 @@
+body {
+	padding: 100px 0 0 0; /*Add space so fixed navbar doesn't overlap*/
+	overflow-x: hidden; /*Prevent sideways scroll on narrow screens*/
+	background-color:white;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #444;
+}
+.row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+a {
+	color: grey !important;
+}
+a:hover {
+	color:lightblue !important;
+	text-decoration: none;
+}
+    
+ 
+    /* Contact Information */
+     .portfolio, .contact {
+	background-color: #2a2a2a;
+	color: #ccc;
+	margin:1px;
+     }
+     h2 {
+	text-transform: uppercase;
+}
+.row {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+#contacts li {
+	display: inline-block;
+	padding: 2px 10px;
+}
+   
+    /* Style the footer */
+    footer {
+      background-color:;
+      padding: 1px;
+      text-align:center;
+      margin: 1px;
+      color:black;
+    }
